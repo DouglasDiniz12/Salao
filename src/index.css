@@ -1,13 +1,67 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.App {
+  min-height: 100%; /* Garante que o container ocupe toda a altura da tela */
+  display: flex;
+  flex-direction: column;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html, body {
+  height: 100%; /* Certifique-se de que o corpo da página ocupe toda a altura */
+  margin: 0; /* Remove margens padrão */
+}
+
+
+
+:root {
+  --primary-color: #FF69B4;   /* Rosa vibrante */
+  --secondary-color: #FFB6C1; /* Rosa claro */
+  --accent-color: #FF1493;    /* Rosa choque para destaques */
+  --background-color: #FFF0F5; /* Fundo em rosa suave */
+  --text-color: #333333;      /* Cor do texto */
+  --neutral-color: #F5F5F5;   /* Neutro para seções */
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+h1, h2, h3 {
+  color: var(--primary-color);
+}
+
+.button {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.button:hover {
+  background-color: var(--accent-color);
+}
+
+.header, .footer {
+  background-color: var(--secondary-color);
+}
+
+.section-background {
+  background-color: var(--neutral-color);
+}
+
+
+
+
+
+
+main {
+  flex: 1; /* Faz o conteúdo principal ocupar o espaço restante */
+}
+
+footer {
+  background-color: #FF69B4; /* Cor de fundo rosa */
+  color: black;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-top: auto; /* Garante que o footer fique no final */
 }

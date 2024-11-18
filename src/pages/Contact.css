@@ -1,0 +1,63 @@
+/* Contact.css */
+.contact-container {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+.contact-container h1 {
+  font-size: 36px;
+  color: #e91e63; /* Cor rosa do salão */
+  margin-bottom: 20px;
+}
+
+.contact-description {
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-item {
+  margin: 15px 0;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+  color: #e91e63; /* Cor rosa ao passar o mouse */
+}
+
+.contact-icon {
+  margin-right: 10px;
+  font-size: 24px; /* Tamanho do ícone */
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 20px;
+  }
+
+  .contact-item {
+    margin: 10px 0;
+  }
+
+  .contact-link {
+    font-size: 18px;
+  }
+}
