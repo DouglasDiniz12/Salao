@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   background-color:#FF007F; /* Cor de fundo escura */
-  padding: 10px 20px;
+  padding: 5px 20px;
   font-family: Arial, sans-serif;
 }
 
@@ -13,7 +13,7 @@
 }
 
 .logo {
-  width: 150px; 
+  width: 100px; 
   height: auto;
 }
 

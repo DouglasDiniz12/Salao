@@ -1,3 +1,11 @@
+/* Importando as fontes no CSS */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Poppins:wght@300;400&display=swap');
+
+/* Estilizando com as novas fontes */
+body {
+  font-family: 'Poppins', sans-serif; /* Fonte principal */
+}
+
 .home-container {
   text-align: center;
   padding: 20px;
@@ -74,4 +82,34 @@
   .home-container1 h1 {
     font-size: 28px;
   }
+}
+
+.about-salon {
+  margin: 40px auto;
+  max-width: 800px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.about-salon h1 {
+  font-size: 28px;
+  color: #e91e63; /* Cor rosa */
+  margin-bottom: 20px;
+}
+
+.about-salon p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.about-salon .signature {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #555;
+  font-style: italic;
 }

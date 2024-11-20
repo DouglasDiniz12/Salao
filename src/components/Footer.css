@@ -1,10 +1,10 @@
-.footer {
-  background-color: #FF69B4; /* Cor de fundo rosa */
+
+footer {
+  background-color: #333;
   color: white;
   text-align: center;
-  padding: 10px;
-  position: relative;
-  bottom: 0;
+  padding: 20px;
+  min-height: 60px; /* Altura mínima para o footer */
+  margin-top: 20px; /* Espaço entre o conteúdo e o footer */
   width: 100%;
-  margin-top: auto; /* Garante que o footer fique no final */
 }

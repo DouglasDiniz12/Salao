@@ -1,0 +1,96 @@
+.corte-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.corte-title {
+  font-size: 28px;
+  color: #e91e63; /* Cor rosa */
+  margin-bottom: 20px;
+}
+
+.corte-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.corte-image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.corte-description {
+  text-align: left;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.corte-description strong {
+  color: #e91e63;
+}
+
+.corte-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #e91e63;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.corte-button:hover {
+  background-color: #d81b60;
+}
+
+.corte-button {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #25d366; /* Cor verde do WhatsApp */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.corte-button:hover {
+  background-color: #1ebe57; /* Cor verde mais escura */
+}
+whatsapp-button {
+  background-color: #25d366; /* Cor verde do WhatsApp */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.whatsapp-button:hover {
+  background-color: #128c7e;
+}
+
+.whatsapp-button img {
+  margin-right: 10px;
+}
