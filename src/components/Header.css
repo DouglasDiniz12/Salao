@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color:#FF007F; /* Cor de fundo escura */
+  background-color:#FF007F; 
   padding: 5px 20px;
   font-family: Arial, sans-serif;
 }

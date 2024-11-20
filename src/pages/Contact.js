@@ -1,5 +1,5 @@
 import React from 'react';
-import './Contact.css'; // Importando o CSS da página de contato
+import './Contact.css';
 import { FaInstagram, FaWhatsapp, FaEnvelope } from 'react-icons/fa';
 
 function Contact() {

@@ -6,11 +6,10 @@ import './Corte.css';
 const Maquiagem = () => {
 
   const handleWhatsAppClick = () => {
-    const phoneNumber = "+55 11 994026599"; // Substitua pelo número do salão, incluindo o código do país
-    const message = "Olá, gostaria de agendar um maquiagem. Como posso agendar?"; // Mensagem predefinida
+    const phoneNumber = "+55 11 994026599"; 
+    const message = "Olá, gostaria de agendar um maquiagem. Como posso agendar?"; 
     const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
 
-    // Abrir o WhatsApp em uma nova aba
     window.open(whatsappUrl, "_blank");
   };
 

@@ -1,9 +1,9 @@
 /* Importando as fontes no CSS */
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Poppins:wght@300;400&display=swap');
 
-/* Estilizando com as novas fontes */
+
 body {
-  font-family: 'Poppins', sans-serif; /* Fonte principal */
+  font-family: 'Poppins', sans-serif;
 }
 
 .home-container {
@@ -14,7 +14,7 @@ body {
 .carousel-container {
   position: relative;
   display: inline-block;
-  max-width: 100%; /* Limita a largura do carrossel */
+  max-width: 100%; 
   margin: 0 auto;
 }
 
@@ -96,7 +96,7 @@ body {
 
 .about-salon h1 {
   font-size: 28px;
-  color: #e91e63; /* Cor rosa */
+  color: #e91e63; 
   margin-bottom: 20px;
 }
 
